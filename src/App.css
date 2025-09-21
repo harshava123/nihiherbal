@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Sunshine Poppy';
+  src: url('/Fonts/Sunshine Poppy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Procreate Signature';
+  src: url('/Fonts/ProcreateSignature.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Thanks Autumn';
+  src: url('/Fonts/Thanks Autumn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Magilio';
+  src: url('/Fonts/Magilio.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-sunshine {
+  font-family: 'Sunshine Poppy', cursive;
+}
+
+.font-procreate {
+  font-family: 'Procreate Signature', cursive;
+}
+
+.font-thanks-autumn {
+  font-family: 'Thanks Autumn', cursive;
+}
+
+.font-magilio {
+  font-family: 'Magilio', cursive;
+}
+
+body {
+  font-family: 'Poppins', 'Quicksand', 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-brand {
+  font-family: 'The Thesla Ohago italic', 'Magilio', 'Pacifico', 'Quicksand', 'Poppins', cursive, sans-serif;
+}
+
+.text-outline-orange {
+  -webkit-text-stroke: .01px #f78f45c0;
+  text-stroke: .01px #F78E45;
+  /* Fallback for non-webkit browsers */
+  text-shadow:
+    0.5px 0 #F78E45,
+    -0.5px 0 #F78E45,
+    0 0.5px #F78E45,
+    0 -0.5px #F78E45,
+    0.5px 0.5px #F78E45,
+    -0.5px -0.5px #F78E45,
+    0.5px -0.5px #F78E45,
+    -0.5px 0.5px #F78E45;
+}
+
+.text-outline-cream {
+  -webkit-text-stroke: .01px #fdf8e1c3;
+  text-stroke: .1px #fdf8e1bf;
+  /* Fallback for non-webkit browsers */
+  text-shadow:
+    0.5px 0 #FDF8E1,
+    -0.5px 0 #FDF8E1,
+    0 0.5px #FDF8E1,
+    0 -0.5px #FDF8E1,
+    0.5px 0.5px #FDF8E1,
+    -0.5px -0.5px #FDF8E1,
+    0.5px -0.5px #FDF8E1,
+    -0.5px 0.5px #FDF8E1;
+}
+
+.quotebg-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/src/assets/leaves/quotebg.png');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.30;
+  pointer-events: none;
+}
+
+.quotebggg-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/src/assets/leaves/quotebggg.png');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.10;
+  pointer-events: none;
+}
+
+.quotebggg-section-plans::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/src/assets/leaves/quotebggg.png');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.22;
+  pointer-events: none;
+}
