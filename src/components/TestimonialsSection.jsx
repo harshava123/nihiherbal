@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
     {
       name: 'Priya Sharma',
       address: 'Andheri West, Mumbai, Maharashtra',
-      quote: "Nihi Herbal cured my chronic migraine! I've been using it for 3 months and the headaches are completely gone. Natural healing at its best!",
+      quote: "Nihi Herbal cured my chronic Migraine! I've been using it for 3 months and the headaches are completely gone. Natural healing at its best!",
       rating: 5,
     },
     {
@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
     {
       name: 'Kavya Nair',
       address: 'T. Nagar, Chennai, Tamil Nadu',
-      quote: "My kids love the taste and I love the results! Nihi Herbal boosted their immunity and they rarely fall sick now. Organic and trustworthy!",
+      quote: "My kids love the product and I love the results! Nihi Herbal boosted their immunity and they rarely fall sick now. Organic and trustworthy!",
       rating: 5,
     },
     {

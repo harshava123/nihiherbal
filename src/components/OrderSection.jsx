@@ -10,12 +10,12 @@ const OrderSection = () => {
   const [deliveryAddress, setDeliveryAddress] = useState('');
 
   const quantityOptions = [
-    { value: '1', label: '1 Bottle (30ml)', price: '₹80', mrp: '₹120' },
-    { value: '2', label: '2 Bottles (60ml)', price: '₹160', mrp: '₹240' },
-    { value: '3', label: '3 Bottles (90ml)', price: '₹240', mrp: '₹360' },
-    { value: '5', label: '5 Bottles (150ml)', price: '₹400', mrp: '₹600' },
-    { value: '10', label: '10 Bottles (300ml)', price: '₹800', mrp: '₹1,200' },
-    { value: 'custom', label: 'Custom Quantity', price: '₹80', mrp: '₹120' }
+    { value: '1', label: '1 Bottle (8ml)', price: '₹60', mrp: '₹120' },
+    { value: '2', label: '2 Bottles (16ml)', price: '₹120', mrp: '₹240' },
+    { value: '3', label: '3 Bottles (24ml)', price: '₹180', mrp: '₹360' },
+    { value: '5', label: '5 Bottles (40ml)', price: '₹300', mrp: '₹600' },
+    { value: '10', label: '10 Bottles (80ml)', price: '₹600', mrp: '₹1,200' },
+    { value: 'custom', label: 'Custom Quantity', price: '₹60', mrp: '₹120' }
   ];
 
   const handleOrderClick = () => {
@@ -100,11 +100,11 @@ const OrderSection = () => {
                 {/* Pricing */}
                 <div className="bg-green-50 rounded-xl p-4 mb-6">
                   <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-3xl font-bold text-green-600">₹80</span>
+                    <span className="text-3xl font-bold text-green-600">₹60</span>
                     <span className="text-lg text-gray-500 line-through">₹120</span>
                   </div>
                   <div className="text-sm text-green-600 font-semibold">
-                    Save ₹40 per bottle!
+                    Save ₹60 per bottle!
                   </div>
                 </div>
 
