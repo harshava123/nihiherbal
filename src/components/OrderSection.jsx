@@ -10,12 +10,12 @@ const OrderSection = () => {
   const [deliveryAddress, setDeliveryAddress] = useState('');
 
   const quantityOptions = [
-    { value: '1', label: '1 Bottle (8ml)', price: '₹60', mrp: '₹120' },
-    { value: '2', label: '2 Bottles (16ml)', price: '₹120', mrp: '₹240' },
-    { value: '3', label: '3 Bottles (24ml)', price: '₹180', mrp: '₹360' },
-    { value: '5', label: '5 Bottles (40ml)', price: '₹300', mrp: '₹600' },
-    { value: '10', label: '10 Bottles (80ml)', price: '₹600', mrp: '₹1,200' },
-    { value: 'custom', label: 'Custom Quantity', price: '₹60', mrp: '₹120' }
+    { value: '1', label: '1 Bottle (8ml)', price: '₹75', mrp: '₹120' },
+    { value: '2', label: '2 Bottles (16ml)', price: '₹150', mrp: '₹240' },
+    { value: '3', label: '3 Bottles (24ml)', price: '₹225', mrp: '₹360' },
+    { value: '5', label: '5 Bottles (40ml)', price: '₹375', mrp: '₹600' },
+    { value: '10', label: '10 Bottles (80ml)', price: '₹750', mrp: '₹1,200' },
+    { value: 'custom', label: 'Custom Quantity', price: '₹75', mrp: '₹120' }
   ];
 
   const handleOrderClick = () => {
