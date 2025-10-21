@@ -86,7 +86,7 @@ const OrderSection = () => {
                     />
                   </div>
                   <div className="text-green-700 font-bold text-lg">Nihi Herbal</div>
-                  <div className="text-green-600 text-sm">30ml Bottle</div>
+                  <div className="text-green-600 text-sm">8ml Bottle</div>
                 </div>
               </div>
 
