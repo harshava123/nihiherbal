@@ -100,11 +100,11 @@ const OrderSection = () => {
                 {/* Pricing */}
                 <div className="bg-green-50 rounded-xl p-4 mb-6">
                   <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-3xl font-bold text-green-600">₹60</span>
+                    <span className="text-3xl font-bold text-green-600">₹75</span>
                     <span className="text-lg text-gray-500 line-through">₹120</span>
                   </div>
                   <div className="text-sm text-green-600 font-semibold">
-                    Save ₹60 per bottle!
+                    Save ₹45 per bottle!
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ const OrderSection = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-green-600">✓</span>
-                    <span className="text-[#13381A]/70">Free Delivery</span>
+                    <span className="text-[#13381A]/70">Free Delivery -5km radius </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-green-600">✓</span>
